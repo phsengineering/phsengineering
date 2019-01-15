@@ -2352,7 +2352,20 @@ input, select, textarea {
 			border-radius: 8px;
 			display: block;
 		}
+		img {
+    max-width: 100%;
 
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+.static {
+  position:absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity:0;
+}
 		.image.left, .image.right {
 			max-width: 40%;
 		}
